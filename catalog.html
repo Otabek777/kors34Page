@@ -15,7 +15,10 @@
     <header class="header">
         <div class="container">
             <div class="header__box">
-                <div class="header__left">'
+                <button class="header__burgir">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="header__left">
                     <a href="#" class="header__logo">
                         <img src="img/logo.png" alt="">
                     </a>
@@ -27,6 +30,12 @@
                     </div>
                 </div>
                 <div class="header__navbar">
+                    <div class="header__map">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M2.52773 8.87967C2.35185 9.12691 2.25506 9.42165 2.25009 9.72501H2.25008C2.24512 10.0291 2.33269 10.3275 2.50119 10.5806C2.66961 10.8336 2.91092 11.0295 3.19315 11.1423C3.19325 11.1424 3.19335 11.1424 3.19346 11.1425C3.1935 11.1425 3.19354 11.1425 3.19358 11.1425L10.0955 13.9037L12.8568 20.8065C12.8568 20.8066 12.8568 20.8067 12.8569 20.8068C12.9682 21.0853 13.1604 21.3239 13.4087 21.4921C13.6571 21.6602 13.9501 21.7501 14.25 21.75C14.2501 21.75 14.2502 21.75 14.2503 21.75H14.262V21.7501L14.2738 21.7499C14.5776 21.7451 14.8728 21.6482 15.1203 21.4719C15.3678 21.2957 15.5559 21.0484 15.6598 20.7629L15.6598 20.7628L21.6593 4.26422C21.6594 4.26401 21.6595 4.2638 21.6595 4.26359C21.7576 3.9953 21.777 3.70459 21.7154 3.42566C21.6539 3.1465 21.5138 2.89075 21.3117 2.68853C21.1097 2.48632 20.854 2.34605 20.5749 2.28425C20.2961 2.22252 20.0055 2.24165 19.7372 2.3394C19.7369 2.33951 19.7366 2.33961 19.7363 2.33972L3.23717 8.3394L3.23657 8.33962C2.95107 8.44372 2.70389 8.63203 2.52773 8.87967Z" stroke="black" stroke-width="1.5"></path>
+                        </svg>
+                        г. Новосибирск
+                    </div>
                     <ul>
                         <li>
                             <a href="#">Женщинам</a>
@@ -47,6 +56,21 @@
                             <a href="#">О компании</a>
                         </li>
                     </ul>
+                    <button class="header__call">Связаться с нами</button>
+                    <a href="tel:8 (383) 204-74-85" class="header__phone">8 (383) 204-74-85</a>
+                    <div class="header__email">
+                        <h5>Узнайте первыми о наших новинках 
+                            и акциях</h5>
+                        <p>Подпишитесь на e-mail рассылку</p>
+                        <div class="footer__email">
+                            <input type="email" placeholder="Ваш email">
+                            <button class="btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M17.47 25.5298C17.3295 25.3892 17.2506 25.1986 17.2506 24.9998C17.2506 24.8011 17.3295 24.6105 17.47 24.4698L25.1887 16.7498L4.99999 16.7498C4.80108 16.7498 4.61031 16.6708 4.46966 16.5302C4.32901 16.3895 4.24999 16.1988 4.24999 15.9998C4.24999 15.8009 4.32901 15.6102 4.46966 15.4695C4.61031 15.3289 4.80108 15.2498 4.99999 15.2498L25.1887 15.2498L17.47 7.52985C17.3375 7.38767 17.2654 7.19962 17.2688 7.00532C17.2722 6.81102 17.351 6.62564 17.4884 6.48822C17.6258 6.35081 17.8112 6.2721 18.0055 6.26867C18.1998 6.26524 18.3878 6.33737 18.53 6.46985L27.53 15.4698C27.6704 15.6105 27.7493 15.8011 27.7493 15.9998C27.7493 16.1986 27.6704 16.3892 27.53 16.5298L18.53 25.5298C18.3894 25.6703 18.1987 25.7492 18 25.7492C17.8012 25.7492 17.6106 25.6703 17.47 25.5298Z" fill="white"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="header__right">
                     <button class="header__call">Связаться с нами</button>
@@ -276,23 +300,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -314,23 +338,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -352,23 +376,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -390,23 +414,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -428,23 +452,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -466,23 +490,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -504,23 +528,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -542,23 +566,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                             <div class="products__block">
                                 <button class="products__like">
@@ -580,23 +604,23 @@
                                     <div class="box">
                                         <div class="price">3 500 р.</div>
                                     </div>
-                                    <div class="box">
-                                        <div class="products__quantity">
-                                            <button class="plus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                            <input type="text" value="1" readonly class="num">
-                                            <button class="minus">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
-                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <button class="btn2">В корзину</button>
-                                    </div>
                                 </a>
+                                <div class="box">
+                                    <div class="products__quantity counter">
+                                        <button class="plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                        <input type="text" value="1" readonly class="num">
+                                        <button class="minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <button class="btn2">В корзину</button>
+                                </div>
                             </div>
                         </div>
                         <div class="paginator">
