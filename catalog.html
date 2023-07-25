@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__box">
+                <div class="header__left">'
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="header__map">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M2.52773 8.87967C2.35185 9.12691 2.25506 9.42165 2.25009 9.72501H2.25008C2.24512 10.0291 2.33269 10.3275 2.50119 10.5806C2.66961 10.8336 2.91092 11.0295 3.19315 11.1423C3.19325 11.1424 3.19335 11.1424 3.19346 11.1425C3.1935 11.1425 3.19354 11.1425 3.19358 11.1425L10.0955 13.9037L12.8568 20.8065C12.8568 20.8066 12.8568 20.8067 12.8569 20.8068C12.9682 21.0853 13.1604 21.3239 13.4087 21.4921C13.6571 21.6602 13.9501 21.7501 14.25 21.75C14.2501 21.75 14.2502 21.75 14.2503 21.75H14.262V21.7501L14.2738 21.7499C14.5776 21.7451 14.8728 21.6482 15.1203 21.4719C15.3678 21.2957 15.5559 21.0484 15.6598 20.7629L15.6598 20.7628L21.6593 4.26422C21.6594 4.26401 21.6595 4.2638 21.6595 4.26359C21.7576 3.9953 21.777 3.70459 21.7154 3.42566C21.6539 3.1465 21.5138 2.89075 21.3117 2.68853C21.1097 2.48632 20.854 2.34605 20.5749 2.28425C20.2961 2.22252 20.0055 2.24165 19.7372 2.3394C19.7369 2.33951 19.7366 2.33961 19.7363 2.33972L3.23717 8.3394L3.23657 8.33962C2.95107 8.44372 2.70389 8.63203 2.52773 8.87967Z" stroke="black" stroke-width="1.5"/>
+                        </svg>
+                        г. Новосибирск
+                    </div>
+                </div>
+                <div class="header__navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Женщинам</a>
+                        </li>
+                        <li>
+                            <a href="#">Мужчинам</a>
+                        </li>
+                        <li>
+                            <a href="#">Детям</a>
+                        </li>
+                        <li>
+                            <a href="#">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Распродажа</a>
+                        </li>
+                        <li>
+                            <a href="#">О компании</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__right">
+                    <button class="header__call">Связаться с нами</button>
+                    <button class="header__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M13.8181 4.5C11.8763 4.5 9.97805 5.07582 8.36347 6.15465C6.74889 7.23348 5.49048 8.76686 4.74736 10.5609C4.00425 12.3549 3.80982 14.329 4.18866 16.2335C4.56749 18.1381 5.50258 19.8875 6.87567 21.2606C8.24876 22.6337 9.99818 23.5688 11.9027 23.9476C13.8072 24.3264 15.7813 24.132 17.5754 23.3889C19.3694 22.6458 20.9028 21.3874 21.9816 19.7728C23.0604 18.1582 23.6363 16.26 23.6363 14.3181C23.6361 11.7142 22.6016 9.21707 20.7604 7.37585C18.9192 5.53463 16.422 4.50017 13.8181 4.5Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/>
+                            <path d="M21.1431 21.6431L28 28.5" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <a href="#" class="header__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M6 28.5C6 28.5 4 28.5 4 26.5C4 24.5 6 18.5 16 18.5C26 18.5 28 24.5 28 26.5C28 28.5 26 28.5 26 28.5H6ZM16 15.5C17.5913 15.5 19.1174 14.8679 20.2426 13.7426C21.3679 12.6174 22 11.0913 22 9.5C22 7.9087 21.3679 6.38258 20.2426 5.25736C19.1174 4.13214 17.5913 3.5 16 3.5C14.4087 3.5 12.8826 4.13214 11.7574 5.25736C10.6321 6.38258 10 7.9087 10 9.5C10 11.0913 10.6321 12.6174 11.7574 13.7426C12.8826 14.8679 14.4087 15.5 16 15.5Z" stroke="black" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M9.59998 3.70001L9.59998 29.3M16.8 12.5276L16.8 29.3M23.2 20.4724V29.3" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__item header__cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28" fill="none">
+                            <path d="M1.36532 24.1879L4.02666 7.34394C4.10345 6.85793 4.52237 6.5 5.01441 6.5H14.56H20.9856C21.4776 6.5 21.8966 6.85793 21.9733 7.34394L24.6347 24.1879C24.8265 25.4019 23.8882 26.5 22.6592 26.5H14.56H3.34081C2.11176 26.5 1.17351 25.4019 1.36532 24.1879Z" stroke="black" stroke-width="1.5"/>
+                            <path d="M9 9.5V5.5C9 3.29086 10.7909 1.5 13 1.5C15.2091 1.5 17 3.29086 17 5.5V9.5" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        <span>10</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="crumbs">
+                <ul>
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <p>Женская обувь</p>
+                    </li>
+                </ul>
+            </div>
+            <section class="catalog">
+                <h2>Женская обувь</h2>
+                <div class="catalog__box">
+                    <div class="aside">
+                        <div class="aside__wrap">
+                            <h5>Сезон</h5>
+                            <div class="aside__check">
+                                <input type="checkbox" id="11">
+                                <label for="11">Демисизон</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="12">
+                                <label for="12">Зима</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="13">
+                                <label for="13">Лето</label>
+                            </div>
+                        </div>
+                        <div class="aside__wrap">
+                            <h5>Размер обуви</h5>
+                            <div class="aside__check">
+                                <input type="checkbox" id="35">
+                                <label for="35">35</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="34">
+                                <label for="34">34</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="36">
+                                <label for="36">36</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="37">
+                                <label for="37">37</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="38">
+                                <label for="38">38</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="39">
+                                <label for="39">39</label>
+                            </div>
+                            <div class="aside__check">
+                                <input type="checkbox" id="40">
+                                <label for="40">40</label>
+                            </div>
+                        </div>
+                        <div class="aside__wrap">
+                            <h5>Цвет</h5>
+                            <div class="aside__colors">
+                                <input type="radio" id="21" name="colors">
+                                <label for="21">
+                                    <div class="color color1">
+                                        <span></span>
+                                    </div>
+                                    Бежевый
+                                </label>
+                            </div>
+                            <div class="aside__colors">
+                                <input type="radio" id="22" name="colors">
+                                <label for="22">
+                                    <div class="color color2">
+                                        <span></span>
+                                    </div>
+                                    Белый
+                                </label>
+                            </div>
+                            <div class="aside__colors">
+                                <input type="radio" id="23" name="colors">
+                                <label for="23">
+                                    <div class="color color3">
+                                        <span></span>
+                                    </div>
+                                    Зеленый
+                                </label>
+                            </div>
+                            <div class="aside__colors">
+                                <input type="radio" id="24" name="colors">
+                                <label for="24">
+                                    <div class="color color4">
+                                        <span></span>
+                                    </div>
+                                    Коричневый
+                                </label>
+                            </div>
+                            <div class="aside__colors">
+                                <input type="radio" id="25" name="colors">
+                                <label for="25">
+                                    <div class="color color5">
+                                        <span></span>
+                                    </div>
+                                    Красный
+                                </label>
+                            </div>
+                            <div class="aside__colors">
+                                <input type="radio" id="26" name="colors">
+                                <label for="26">
+                                    <div class="color color6">
+                                        <span></span>
+                                    </div>
+                                    Черный
+                                </label>
+                            </div>
+                        </div>
+                        <button class="main_btn">Применить фильтр</button>
+                        <button class="btn3">Сбросить</button>
+                    </div>
+                    <div class="catalog__content">
+                        <div class="catalog__checkeds">
+                            <div class="catalog__check">
+                                <input type="checkbox" id="1">
+                                <label for="1">Кроссовки</label>
+                            </div>
+                            <div class="catalog__check">
+                                <input type="checkbox" id="2">
+                                <label for="2">Кеды</label>
+                            </div>
+                            <div class="catalog__check">
+                                <input type="checkbox" id="3">
+                                <label for="3">Слипоны</label>
+                            </div>
+                            <div class="catalog__check">
+                                <input type="checkbox" id="4">
+                                <label for="4">Туфли</label>
+                            </div>
+                            <div class="catalog__check">
+                                <input type="checkbox" id="5">
+                                <label for="5">Балетки</label>
+                            </div>
+                            <div class="catalog__check">
+                                <input type="checkbox" id="6">
+                                <label for="6">Сандалии и босоножки</label>
+                            </div>
+                        </div>
+                        <div class="catalog__select">
+                            <p>Сортировка:</p>
+                            <select name="" id="">
+                                <option value="">по умолчанию</option>
+                                <option value="">по умолчанию</option>
+                                <option value="">по умолчанию</option>
+                                <option value="">по умолчанию</option>
+                            </select>
+                            <div class="catalog__visibility">
+                                <button class="btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                        <path d="M18 13V5.002V4.002H19H26.998H27.998V5.002V13V14H26.998H19H18V13Z" fill="#444444"/>
+                                        <path d="M18 13V5.002V4.002H19H26.998H27.998V5.002V13V14H26.998H19H18V13Z" fill="#444444"/>
+                                        <path d="M18 26.998V19V18H19H26.998H27.998V19V26.998V27.998H26.998H19H18V26.998Z" fill="#444444"/>
+                                        <path d="M4.00195 13V5.002V4.002H5.00195H13H14V5.002V13V14H13H5.00195H4.00195V13Z" fill="#444444"/>
+                                        <path d="M4.00195 13V5.002V4.002H5.00195H13H14V5.002V13V14H13H5.00195H4.00195V13Z" fill="#444444"/>
+                                        <path d="M4.00195 26.998V19V18H5.00195H13H14V19V26.998V27.998H13H5.00195H4.00195V26.998Z" fill="#444444"/>
+                                    </svg>
+                                </button>
+                                <button class="btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                        <path d="M0 4H7.5V9.53846H0V4ZM0 13.2308H7.5V18.7692H0V13.2308ZM0 22.4615H7.5V28H0V22.4615ZM12.5 4H32V9.53846H12.5V4ZM12.5 13.2308H32V18.7692H12.5V13.2308ZM12.5 22.4615H32V28H12.5V22.4615Z" fill="#D9D9D9"/>
+                                      </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="catalog__grid">
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="products__block">
+                                <button class="products__like">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M22.4559 33.7022L22.4548 33.7013C18.8343 30.6342 15.8918 28.1368 13.8457 25.7982C11.8059 23.4668 10.75 21.3951 10.75 19.1935C10.75 15.6144 13.7524 12.75 17.7 12.75C19.9276 12.75 22.0648 13.7225 23.4477 15.2278L24 15.829L24.5523 15.2278C25.9352 13.7225 28.0724 12.75 30.3 12.75C34.2476 12.75 37.25 15.6144 37.25 19.1935C37.25 21.3951 36.1941 23.4668 34.1543 25.7982C32.1082 28.1368 29.1657 30.6342 25.5452 33.7013L25.5441 33.7022L24 35.0154L22.4559 33.7022Z" stroke="black" stroke-width="1.5"/>
+                                    </svg>
+                                </button>
+                                <button class="products__comparison">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                        <path d="M18 13L18 35M24.8824 20.5862L24.8824 35M31 27.4138V35" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                                <a href="#">
+                                    <div class="products__img">
+                                        <img src="img/product-2.png" alt="">
+                                    </div>
+                                    <span>Сандалии мужские</span>
+                                    <h5>Francesco Donni</h5>
+                                    <div class="box">
+                                        <div class="price">3 500 р.</div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="products__quantity">
+                                            <button class="plus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                    <path d="M1 7H13M7 1V13" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                            <input type="text" value="1" readonly class="num">
+                                            <button class="minus">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="2" viewBox="0 0 14 2" fill="none">
+                                                    <path d="M1 1L13 1" stroke="#828282" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <button class="btn2">В корзину</button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="paginator">
+                            <ul>
+                                <li>
+                                    <a href="#">1</a>
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">3</a>
+                                </li>
+                                <li>
+                                    <a href="#">...</a>
+                                </li>
+                                <li>
+                                    <a href="#">5</a>
+                                </li>
+                            </ul>
+                            <a href="#" class="next">
+                                Далее
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M10 17L15 12L10 7" stroke="#444444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__left">
+                    <a href="#" class="footer__logo">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <a href="tel:8 (383) 204-74-85" class="footer__phone">8 (383) 204-74-85</a>
+                </div>
+                <div class="footer__wrap">
+                    <div class="footer__nav">
+                        <h5>Компания</h5>
+                        <ul>
+                            <li>
+                                <a href="#">О предприятии </a>
+                            </li>
+                            <li>
+                                <a href="#">Новости и полезные статьи</a>
+                            </li>
+                            <li>
+                                <a href="#">Совместные покупки</a>
+                            </li>
+                            <li>
+                                <a href="#">Крупным оптовикам</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты и адреса магазинов</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav">
+                        <h5>Помощь</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Способы оплаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Условия доставки и самовывоза</a>
+                            </li>
+                            <li>
+                                <a href="#">Гарантия на товар</a>
+                            </li>
+                            <li>
+                                <a href="#">Политика</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right">
+                        <h5>Узнайте первыми о наших новинках 
+                            и акциях</h5>
+                        <p>Подпишитесь на e-mail рассылку</p>
+                        <div class="footer__email">
+                            <input type="email" placeholder="Ваш email">
+                            <button class="btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M17.47 25.5298C17.3295 25.3892 17.2506 25.1986 17.2506 24.9998C17.2506 24.8011 17.3295 24.6105 17.47 24.4698L25.1887 16.7498L4.99999 16.7498C4.80108 16.7498 4.61031 16.6708 4.46966 16.5302C4.32901 16.3895 4.24999 16.1988 4.24999 15.9998C4.24999 15.8009 4.32901 15.6102 4.46966 15.4695C4.61031 15.3289 4.80108 15.2498 4.99999 15.2498L25.1887 15.2498L17.47 7.52985C17.3375 7.38767 17.2654 7.19962 17.2688 7.00532C17.2722 6.81102 17.351 6.62564 17.4884 6.48822C17.6258 6.35081 17.8112 6.2721 18.0055 6.26867C18.1998 6.26524 18.3878 6.33737 18.53 6.46985L27.53 15.4698C27.6704 15.6105 27.7493 15.8011 27.7493 15.9998C27.7493 16.1986 27.6704 16.3892 27.53 16.5298L18.53 25.5298C18.3894 25.6703 18.1987 25.7492 18 25.7492C17.8012 25.7492 17.6106 25.6703 17.47 25.5298Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copy">
+                    <p>© 2023 Корс Все права защищены</p>
+                    <p><a href="#">sale@cors.ru</a> электронная почта для обращений с вопросом о своих персональных данных, в том числе об их удалении.</p>
+                </div>
+                <div class="footer__kontur">
+                    <div>
+                        <a href="#">Создание сайтов</a>
+                        <a href="#">Продвижение сайтов</a>
+                    </div>
+                    <img src="img/kontur.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    </script>
+</body>
+</html>
