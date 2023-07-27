@@ -39,4 +39,18 @@ if($(".product__tabBtn")) {
     };
     TabClick("1");
     TabClick("2");
-}
+};
+$(".filter-open").click(function() {
+    $(".aside__close").addClass("active");
+    $(".aside").addClass("active");
+    setTimeout(function() {
+        $(".aside").addClass("open");
+    },10);
+});
+$(".filter-close").click(function() {
+    $(".aside__close").removeClass("active");
+    $(".aside").removeClass("open");
+    setTimeout(function() {
+        $(".aside").removeClass("active");
+    },300);
+});
