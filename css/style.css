@@ -2460,7 +2460,25 @@ ul, ol {
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
+.filter-open {
+  display: none;
+}
+
+@media screen and (max-width: 1111px) {
+  .filter-open {
+    display: block;
+    margin-left: auto;
+    color: var(--dark-gray, #444);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    background: transparent;
+  }
+  .container {
+    max-width: 700px;
+  }
   .header {
     position: fixed;
     top: 0;
@@ -2688,10 +2706,14 @@ ul, ol {
             flex-direction: column;
   }
   .banner__content {
-    padding: 83px 83px 83px 16px;
+    padding: 83px 16px 83px 16px;
   }
   h1 {
     font-size: 28px;
+  }
+  .banner__content h1, .banner__content h2 {
+    max-width: 260px;
+    width: 100%;
   }
   .banner__content h2 {
     font-size: 28px;
@@ -2810,11 +2832,15 @@ ul, ol {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .company__left {
     margin-bottom: 40px;
   }
   .company__left h5 {
+    font-weight: 600;
     margin-bottom: 24px;
   }
   .company__img {
@@ -2831,7 +2857,7 @@ ul, ol {
     height: auto;
   }
   .company__right img {
-    width: 50%;
+    width: 70%;
   }
   .company__right span {
     font-size: 14px;
@@ -3341,7 +3367,7 @@ ul, ol {
             flex-direction: column;
   }
   .companyPage__left {
-    margin: 0;
+    margin: 0 auto;
     height: auto;
   }
   .companyPage__img {
@@ -3361,6 +3387,7 @@ ul, ol {
     margin-top: 24px;
   }
   .companyPage__numbers .number {
+    max-width: 100%;
     padding-top: 16px;
     margin-top: 24px;
   }
@@ -3398,6 +3425,13 @@ ul, ol {
   }
   .companyPage__images {
     margin-top: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .companyPage__images.mobile {
     display: none;
@@ -3433,5 +3467,11 @@ ul, ol {
     display: -ms-flexbox;
     display: flex;
     margin-top: 40px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .images_main .block img {
+    width: auto;
+    height: 100%;
   }
 }
